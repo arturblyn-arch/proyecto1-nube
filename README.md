@@ -115,6 +115,6 @@ Pendiente: comprobar la resolución con `dig`/`nslookup` y las peticiones con `c
 
 - **Herramienta:** Claude (Claude Code), que manejó la consola de AWS desde el navegador y preparó los scripts y este README.
 - **Prompts útiles:**
-  - «Lee el enunciado del proyecto y haz los pasos del nivel básico desde la consola, con capturas de cada recurso.»
+  - «Lee el enunciado del proyecto y haz un resumen paso a paso de que tengo que hacer.»
   - «Personaliza el user data con horario, dirección y una recomendación de libro, y haz una versión 2 reconocible.»
 - **Error detectado:** al rellenar el CIDR de la subred, el atajo para seleccionar todo el texto no funcionó y el campo quedó como `a10.0.1.0/24`. Lo vi en la captura antes de crear la subred, borré el campo y escribí `10.0.1.0/24` de nuevo. Además, el asistente de lanzamiento propone por defecto la VPC predeterminada y crear un grupo `launch-wizard`; hubo que cambiarlo a mano a `libreria-vpc` y `libreria-web-sg`.
