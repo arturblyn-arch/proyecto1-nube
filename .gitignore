@@ -1,0 +1,5 @@
+# Nunca subir credenciales ni claves
+*.pem
+*.ppk
+credentials
+.aws/
