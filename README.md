@@ -67,9 +67,9 @@ Instancia `libreria-web`: Amazon Linux 2023, `t3.micro`, par de claves `vockey`,
 ![Instancia](img/b3-1-instancia.jpg)
 ![Etiquetas](img/b3-2-etiquetas.jpg)
 
-Web funcionando en `http://44.197.147.198`:
+Web funcionando en `http://44.197.147.198` (con la IP en la barra de direcciones):
 
-![Web servidor 1](img/b3-3-web-servidor1.jpg)
+![Web servidor 1 en el navegador](img/b3-4-web-servidor1-navegador.png)
 
 ### B4. Presupuesto
 
@@ -98,7 +98,7 @@ Segunda instancia `libreria-web-2` con la misma VPC, subred y grupo de seguridad
 | libreria-web-2 | 44.200.116.9 | 10.0.1.164 |
 
 ![Instancia 2](img/m1-1-instancia2.jpg)
-![Web servidor 2](img/m1-2-web-servidor2.jpg)
+![Web servidor 2 en el navegador](img/m1-4-web-servidor2-navegador.png)
 
 Zona alojada **privada** `libreria.lab` asociada a `libreria-vpc`, con dos registros A ponderados para `web.libreria.lab`:
 
